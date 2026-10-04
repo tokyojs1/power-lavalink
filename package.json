@@ -1,0 +1,37 @@
+{
+  "name": "power-lavalink",
+  "version": "0.1.0",
+  "description": "Lavalink v4 client for Node.js with typed events, playback queues and player recovery.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "keywords": [
+    "lavalink",
+    "discord",
+    "audio",
+    "typescript",
+    "powerlavalink"
+  ],
+  "author": "Power Development"
+}
